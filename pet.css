@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+#head {
+    text-align: right;
+    font-weight: bolder;
+    font-size: large;
+    background-image: url("images/pawprints.webp");
+    background-size: cover;
+    width: 100%;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-link {
+    margin: 5px 10px;
+    padding: 15px 15px;
+    display: flex;
+}
+
+a {
+    color: rgb(20, 197, 241);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main {
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+}
+
+/* Cat */
+#imageBox1 {
+    width: 50%;
+    float: left;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+/* Dog */
+#imageBox2 {
+    width: 65%;
+    float: right;
+    border-radius: 50px;
+}
+
+/* Rabbit */
+#imageBox3 {
+    width: 30%;
+    float: left;
+    border-radius: 50px;
+}
+
+/* Box1 */
+.child-el1 {
+    background-color: rgb(20, 197, 241);
+    border-radius: 40px;
+}
+
+/* Box2 Dog */
+.child-el2 {
+    background-color: orange;
+    border-radius: 40px;
+}
+
+/* Box3 Rabbit */
+.child-el3 {
+    background-color: rgb(197, 65, 209);
+    border-radius: 40px;
+}
+
+/* Box4 Help */
+.child-el4 {
+    background-color: rgb(20, 197, 241);
+    border-radius: 40px;
+}
+
+/* Box5 Help */
+.child-el5 {
+    background-color: orange;
+    border-radius: 40px;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer {
+    color: rgb(20, 197, 241);
+    font-style: italic;
+    font-weight: bold;
+    background-image: url("images/pawprints.webp");
+    background-size: cover;
+    width: 100%;
+}

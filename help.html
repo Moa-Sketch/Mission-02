@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Health Guide - Help</title>
+    <link rel="stylesheet" href="pet.css" />
+    <script src="pet.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation bar -->
+       <div id="head">
+      <nav>
+          <a class="btn nav-link"><a href="index.html">Home</a>
+          <a class="btn nav link"><a href="help.html">Help</a>
+      </nav>
+      </div>
+     </header>
+
+<div id="main">
+  <div class="child-el4">
+    <!-- Box4 -->
+      <h3>Pet Insurance Estimate</h3>
+     
+      <!-- CREATE AN INSURANCE CALCULATOR NEEDS TO HAVE DROP DOWN. -->
+
+      <!-- Insurance cover levels -->
+      <label for="coverageLevel">Cover Level:</label>
+      <select id="coverageLevel">
+        <option value="accident">Accident Only</option>
+        <option value="health">Accident & Illness</option>
+        <option value="premium">Comprehensive</option>
+      </select>
+<br>
+<!-- Pet filter menu-->
+      <label for="petType">Pet Type:</label>
+      <select id="petType">
+        <option value="cat">Cat</option>
+        <option value="dog">Dog</option>
+        <option value="rabbit">Rabbit</option>
+      </select>
+<br>
+<!-- Pet age min 0 to 10 years old -->
+      <label for="petAge">Pet Age (Years):</label>
+      <input type="number" id="petAge" min="0" max="10" value="0" />
+      
+      <br><br>
+      <!-- Click to calculate the values enterd -->
+      <button onclick="calculateInsurance()">Calculate estimate</button>
+
+      <div id="result">Estimated Cost: $$ per month</div>
+     
+    </div>
+
+      <div class="child-el5">
+        <!-- Box5 -->
+        Sign up to our newsletter for current pet health tips and information
+        <form action="" method="">
+            <h3>Get in contact</h3>
+         <div <label for="name">Name</label>
+             <input type="text" id="name" name="name" required> 
+         </div>
+        
+         <div <label for="email">Email</label>
+             <input type="email" id="email" name="email" required>
+             
+         </div>
+
+         <div <label for="message">Your message</label><br>
+             <textarea name="message" id="message" name="message"required></textarea>
+        </div>
+          <div><button type="submit">Send</button></div>
+          
+        </form>       
+      </div>
+
+    <footer>
+      <!-- Social media icons -->
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="images/icon-facebook.png"
+        /></a>
+        Follow us on for tips regarding your pets health and wellbeing.
+    </footer>
+  </body>
+</html>
